@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://niustark.github.io</id>
     <title>NIU</title>
-    <updated>2020-11-27T10:43:26.165Z</updated>
+    <updated>2020-11-27T10:44:40.496Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://niustark.github.io"/>
     <link rel="self" href="https://niustark.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, NIU</rights>
     <entry>
         <title type="html"><![CDATA[有什么好用不限速的网盘推荐]]></title>
-        <id>https://niustark.github.io/post/you-shi-me-hao-yong-bu-xian-su-de-wang-pan-tui-jian/</id>
-        <link href="https://niustark.github.io/post/you-shi-me-hao-yong-bu-xian-su-de-wang-pan-tui-jian/">
+        <id>https://niustark.github.io/you-shi-me-hao-yong-bu-xian-su-de-wang-pan-tui-jian/</id>
+        <link href="https://niustark.github.io/you-shi-me-hao-yong-bu-xian-su-de-wang-pan-tui-jian/">
         </link>
         <updated>2020-11-27T09:50:02.000Z</updated>
     </entry>
