@@ -9,7 +9,7 @@
 <meta name="description" content="好物分享">
 <meta name="theme-color" content="#000">
 <title>发车么</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1606734393408">
+<link rel="shortcut icon" href="/favicon.ico?v=1606797671288">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -930,44 +930,8 @@
   
   
   
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-  <div class="aplayer" id="aplayer"></div>
-  <script>
-  let musics = JSON.parse('[{"author":"一棵小葱","cover":"https://gd4.alicdn.com/imgextra/i4/67840442/O1CN01I3xSNx1F8Tg7HHzDh_!!67840442-0-lubanu-s.jpg","lrc":"","musicLink":"http://m10.music.126.net/20201130191820/a0a2e5b69af8d65d4b1a136e0044aea7/ymusic/0758/050e/070c/0250af68f72d9fa3b4ba0f964829c9d8.mp3","musicName":"青花瓷(戏曲版)"}]');
-  let mediaMusic = [];
-  for (let i = 0; i < musics.length; i++) {
-    let item = musics[i];
-    mediaMusic.push({
-      name: item.musicName,
-      artist: item.author,
-      url: item.musicLink,
-      lrc: item.lrc,
-      cover: item.cover
-    });
-  }
-
-  const ap = new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      lrcType: 3,
-      listFolded: false,
-      listMaxHeight: 90,
-      audio: mediaMusic
-  });
-  window.addEventListener('load', function() {
-    let postBody = document.querySelector('#post_body');
-    let hs = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
-    postBody && hs.forEach(h => {
-      let helems = postBody.querySelectorAll(h);
-      if (helems.length > 0) {
-        helems.forEach(elem => {
-          elem.id = encodeURI(elem.id);
-        })
-      }
-    })
-  })
-  </script>
+  <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://player.lmih.cn/player/js/player.js" id="myhk" key="demo" m="1"></script>
 
 
   
@@ -1505,6 +1469,13 @@
 
 </script>
 <script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 200
+  });
+</script>
 
 
 <script src="/media/js/mouse/peace.js"></script>
